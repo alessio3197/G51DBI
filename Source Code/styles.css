@@ -1,0 +1,131 @@
+html *{
+    color: white;
+}
+
+body {
+    background-color: #222;
+    font-family: Calibri;
+}
+
+ul.toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f;
+    width: 100%
+}
+
+li.toolbar {
+    float: left;
+}
+
+li.toolbar a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.toolbar a:hover:not(.active) {
+    background-color: #333;
+}
+
+th {
+    height: 50px;
+    border-bottom: 2px solid #f0f;
+}
+
+td {
+    border-bottom: 1px solid #f0f;
+    padding: 10px 20px;
+}
+
+input[type=text] {
+    color: black;
+    border: 0.25px solid white;
+}
+
+input[type=text]:focus{
+    border: 0.25px solid #f0f;
+}
+
+input[type=submit]{
+    background-color: #f0f;
+    border: 2px #f0f;
+    padding: 3px 3px;
+}
+
+.form-style-1 {
+    max-width: 400px;
+    font: Calibri;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+    margin-left: -40px;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=number],
+select,
+select option{
+    color: black;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:2px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=number]:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 2px solid #88D5E9;
+    color: black;
+}
+.form-style-1 .field{
+    width: 50%;
+    color: #000;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #f0f;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    width: 20%;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #f2f;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+hr {
+    border-color: #f0f;
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+}
